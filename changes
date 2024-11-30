@@ -1,0 +1,8 @@
+import json
+
+result = {
+    "image_path": image_full_path,
+    "human_count": human_count,
+    "human_present": human_count > 0,
+    "message": "Humans detected in the image." if human_count > 0 else "No humans detected in the image."
+}
